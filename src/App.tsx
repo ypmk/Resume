@@ -9,7 +9,6 @@ import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import Profile from "./components/Profile";
 
-
 // Компоненты
 
 
