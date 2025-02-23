@@ -1,0 +1,67 @@
+.experience {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #ffffff;
+}
+
+.h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.experienceList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experienceItem {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.experienceItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.company {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.role {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+.duration {
+    font-size: 14px;
+    color: #ffcc80;
+    font-style: italic;
+}
+
+.details {
+    font-size: 16px;
+    color: #e1bee7;
+    margin-top: 8px;
+}

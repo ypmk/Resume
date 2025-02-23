@@ -1,0 +1,35 @@
+.appContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mainCard {
+    background-color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Две колонки: левая - профиль и образование, правая - остальное */
+.contentContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

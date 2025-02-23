@@ -1,0 +1,57 @@
+.profile {
+    background: linear-gradient(135deg, #9a54e8, #2fc0e1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #ffffff;
+}
+
+.imageContainer {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ffd700;
+}
+
+.profileImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #ffeb3b;
+}
+
+.contact {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.contactItem {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+}
+
+.contactItem:hover {
+    transform: translateY(-3px);
+}

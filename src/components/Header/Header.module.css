@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.nameContainer h2 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.socialLinks img {
+    width: 24px;
+    height: 24px;
+}

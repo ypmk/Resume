@@ -1,0 +1,49 @@
+.education {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.eduList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.eduItem {
+    background: #f3e5f5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.eduItem:hover {
+    transform: translateY(-5px);
+}
+
+.institution {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+.degree {
+    font-size: 16px;
+    color: #512da8;
+    margin-bottom: 6px;
+}
+
+.duration {
+    font-size: 14px;
+    color: #7b1fa2;
+}

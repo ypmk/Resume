@@ -1,0 +1,43 @@
+.appBackground {
+    background: linear-gradient(135deg, #e3f2fd, #e1bee7);
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Основная часть под хедером */
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    gap: 25px;
+}
+
+/* Левая колонка - уже видна на макете как узкая */
+.leftColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Правая колонка - более широкая */
+.rightColumn {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
