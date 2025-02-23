@@ -64,7 +64,7 @@ export const resumeData: ResumeData = {
     profile: {
         name: "Ksenia Kopylova",
         role: "Front End Developer / Web Designer",
-        image: "photo.jpg",
+        image: "/photo.jpg",
         description: "",
         contact: {
             phone: "+79851350704",
